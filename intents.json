@@ -1,0 +1,267 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello, thanks for contacting us. How can I assist you?",
+        "Hi, how can I help you today?",
+        "Good day, what can I help you with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mannerism",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks for this",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "My pleasure! Is there anything else I can help you with today?",
+        "You're welcome! Is there anything else i can help you with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "membership_query",
+      "patterns": [
+        "What are the types of memberships",
+        "How much does a membership cost",
+        "What are the membership benefits"
+      ],
+      "responses": [
+        "We offer a range of membership options such as Peak, Off-Peak, Club Plus, Club Platinum and Diamond - each offering different entitlements. Please visit your local club for a tour and to duscuss membership options and princing further. We also have a selection of member benefits, such as money off Mindful Chef - a food delivery subscription service. I hope this helps!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "membership_join",
+      "patterns": [
+        "I want to add someone to my existing membership, how do i do that",
+        "How do i add someone to my membership",
+        "How do i join",
+        "How can I sign up for a gym membership?",
+        "What do I need to do to become a member of the gym?",
+        "Can you help me join the gym?",
+        "I am interested in becoming a member of the gym, what are the steps to sign up?",
+        "Is there a way to apply for a gym membership online, and if so, how do I do that?"
+      ],
+      "responses": [
+        "Thank you for your interest in joining David Lloyd Clubs! We have different options available so that you can be sure you get the package that is most suited to you and your needs – whether that’s using our unrivalled facilities to help you feel good or spending time together as a family.\nPlease visit the following link to further enquire about joining and choose the right package for you. \nhttps://www.davidlloyd.co.uk/memberships \nIf you would like to add someone onto your exisiting membership, please contact the sales team in your home club. I hope this helps!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "membership_leave",
+      "patterns": [
+        "How do I cancel",
+        "What is the membership cancellation policy",
+        "Can you help me cancel my gym membership",
+        "How can I terminate my membership at the gym",
+        "Is there a way to cancel my gym membership online",
+        "What is the process for canceling my gym membership"
+      ],
+      "responses": [
+        "Sorry you're considering leaving us. Please contact your home club if there is anything we can do to help. Otherwise, as per the members contract, If you want to give notice, it must be in writing\n• Through the David Lloyd Clubs App;\n• by email;\n• by post; or\n• by hand at your club.\nDetails of our email and postal address are on the website. If you need to give us evidence of certain things, you can provide them as attachments to an email.\nc Your notice is not effective until we have received it. We strongly advise that when you give notice\nyou get proof that we have received it. For example:\n• if you send us notice by post, send it by recorded delivery (we will have to sign the delivery\nnotice when we receive it);\n• if you hand your notice in at your club, ask for a receipt;\n• if you send us your notice by email, ask for a delivery receipt; or\n• if you use the David Lloyd Clubs App, we will send you an automated receipt."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "membership_hold",
+      "patterns": [
+        "Can I freeze my membership",
+        "How do i hold my membership",
+        "I'm not going to be using the club for the next months",
+        "I'm going away and want to freeze hold my membership",
+        "How can I put my gym membership on hold",
+        "What is the process for freezing my gym membership?",
+        "Can you guide me through the steps to temporarily pause my gym membership",
+        "I would like to freeze my gym membership, what do I need to do",
+        "Is it possible to put my gym membership on hold, and if so, how do I go about doing that"
+      ],
+      "responses": [
+        "You can freeze your membership for up to 9 months if you're going to be away and not using the club for an extended peroid of time. Please contact your club directly to organise this. Please note: this is not the same as leaving."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "gym",
+      "patterns": [
+        "What is the age people can use the gym",
+        "What brand of equipment does the gym use"
+      ],
+      "responses": [
+        "Our club offers a range of facilities, including a swimming pool, gym, tennis courts, and more. Please visit our website or contact your local club for more information.",
+        "Our swimming pool is open to all members and offers a range of activities and classes. Please visit our website or contact your local club for more information.",
+        "Yes, we have a fully equipped gym available for our members. Please visit our website or contact your local club for more information.",
+        "We offer a range of sports facilities, including tennis courts, squash courts, and more. Please visit our website or contact your local club for more information."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "PT",
+      "patterns": [
+        "How do I sign up for personal training sessions at the gym?",
+        "What qualifications do the personal trainers at the gym have?",
+        "Can you tell me more about the experience of the personal trainers at the gym?",
+        "Are there group personal training sessions available at the gym?",
+        "What is the cost of personal training sessions at the gym?"
+      ],
+      "responses": [
+        "We offer personalised training sessions with certified personal trainers who are dedicated to helping you achieve your fitness goals. Our trainers are experienced and knowledgeable, and will work with you to create a customized workout plan that is tailored to your individual needs and preferences. We also offer group training sessions for those who prefer to workout in a social and supportive environment. The cost of personal training sessions varies based on the duration and frequency of the sessions, and we also offer package deals for multiple sessions. If you're interested in signing up for personal training at David Lloyd, please speak to one of our team members at the gym or contact us through our website for more information. \nAll personal trainers are at least Level 3 Fitness Coach certified. Indervidual profiles about out PTs can be found in the David Lloyd app!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pool",
+      "patterns": [
+        "What is the length of the pool",
+        "How deep is the pool",
+        "When is the pool open",
+        "What is the temperature of the pool"
+      ],
+      "responses": [
+        "We have 5 pools in total, each one with their own stats: \nTraining pool- \nDepth: 1.2m, Length: 25m Temperature: 28-30 degreese C \nKids pool- \nDepth: 0.95m Temperature: 30-32 degreese C (The kids pool also features fountains for little ones to play in! \n WhirlPool- \n Depth: 0.85m, Temperature: 36-38 degreese C \nOutdoor Training- \nLength: 20m, Depth: 1.2m, Temperature: 28 degreese C \nOutdoor Kids- \nDepth: 0.85m, temp: 30 degreese C. \nI hope this helps!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "swimming_lessons",
+      "patterns": [
+        "How do I sign up for swimming lessons",
+        "What types of swimming lessons are offered",
+        "Are there swimming lessons available for children and adults",
+        "What is the cost of swimming lessons",
+        "Are the swimming lessons taught by certified instructors"
+      ],
+      "responses": [
+        "We offer a range of swimming lessons for both adults and kids. All of our instructors are certified with at least Level 2 Swim England qualifications, so you can trust that you'll be receiving top-notch instruction. Our swimming lessons are available in both group and private sessions, and we offer a variety of class levels to accommodate all skill levels, from beginner to advanced. If you're interested in signing up for swimming lessons, you can book directly through our mobile app or in person at the club. Our private lessons are a great option for those who prefer one-on-one instruction or have specific goals in mind. Pricing for swimming lessons varies based on the duration and frequency of the sessions. Whether you're looking to improve your technique or just learn how to swim, our instructors are here to help you achieve your goals. I hope this helps!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "spa",
+      "patterns": [
+        "What spa facilities are there",
+        "Tell me about the spa",
+        "Is there a jacuzi",
+        "is there a steam room",
+        "is there a steamroom",
+        "is there a sauna",
+        "is there a whirlpool"
+      ],
+      "responses": [
+        "We have several spa facilities including a steam room, gendered saunas and whirlpool."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "opening_times",
+      "patterns": [
+        "What time is the gym open today",
+        "What time are you open until",
+        "What are the opening times"
+      ],
+      "responses": [
+        "The normal opening and closing times are as follows: \nMon-Fri: 6:00-22:30 \nSat-Sun: 7:00-21:00 \nPlease note: Times may vary on bank holidays and other special days such as Boxing Day. Please see the DL app or DL instagram page for special day opening hours."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "What is the phone number for the gym",
+        "What are the email and/or social media contacts for the gym",
+        "Can I book a tour of the gym facilities over the phone or online",
+        "What are the gym's customer service hours"
+      ],
+      "responses": [
+        "For local club queries, it's best to call the club directly (The phone number for Solihull Cranmore is: 0121 733 5300). Alternatively, you can email the club: solihullcranmore@davidlloyd.co.uk. \nIf you're looking for a sales tour, please book a tour through this link: https://www.davidlloyd.co.uk/clubs/solihull-cranmore/ \nFinally, you can follow us on our instagram page to keep up to date with the latest news and events around the club. Please note that the instagram messages are not always monitored. I hope this helps!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "jobs",
+      "patterns": [
+        "Are there any jobs available",
+        "Are you recruiting",
+        "What do you pay staff"
+      ],
+      "responses": [
+        "For any employment opportunities, please visit: https://careers.davidlloyd.co.uk/vacancies. I hope this helps and good luck!",
+        "Thanks for your interest in a career with David Lloyd. Please visit the following link for employment opportunities: https://careers.davidlloyd.co.uk/vacancies"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "classes",
+      "patterns": [
+        "Do i need to book classes",
+        "How do i book classes",
+        "Can i cancel a class booking"
+      ],
+      "responses": [
+        "All classes (including paid programs like tennis and swimming lessons) can be booked directly on the DL app. They can also be cancelled through the 'class bookings' section on your app."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Ignite",
+      "patterns": [
+        "What is ignite",
+        "what is ign1te",
+        "is ignite for all levels",
+        "Tell me more about ignite"
+      ],
+      "responses": [
+        "IGN1TE is a choreographed cardio-based workout. Each class is designed to test your whole body as you kick, punch, jump, run and push yourself to the limit. Challenging and fun for all levels, IGN1TE is perfect for anyone looking for a high-energy cardio and strength workout that blends a range of athletic and martial arts-based movements. Add high-energy music and our motivating trainers, and you have a HIIT class like no other.\n\nIf you’ve already tried and love BLAZE, our full-body HIIT workout, IGN1TE is the perfect opportunity to mix up your routine and try something a little different. \n\nDuring a 30 or 45-minute IGN1TE class, your instructor will take you through a series of exercises, culminating in one final push that’s set to our signature AMRAP (as many rounds as possible) track to finish off the class. IGN1TE has three main training focuses: speed, strength and strike. Each class will incorporate the following key elements:\n\nWarm up: Introduces basic moves seen through the workout to warm up the muscles and increase the heart rate.\nProgressive cardio: Adds more impact and directional movements to start increasing intensity.\nStrike #1: Martial art-inspired movements which will continue to increase the heart rate. With more of a lower body focus, this is a great opportunity to condition the quads and glutes and get the legs fired up.\nAthletic HIIT: Your first heart rate peak – challenges the heart rate with explosive and powerful movements and short recovery phases.\nStrength & Conditioning: Improves muscular strength and endurance with a mixture of lower and upper body exercises that challenge the core. Designed to sculpt lean muscle.\nAgility & Power: Second cardio peak – spike the heart rate as you improve your agility, speed, and power. Reaction time and balance will also be tested.\nStrike #2: Second martial arts track – this time with more of an upper body focus to burn out the shoulders.\nAMRAP: Final peak – this AMRAP (as many reps/rounds as possible) section is all about testing your fitness levels and pushing yourself through repetition or time-based drills.\nDynamic cooldown: Brings the heart rate down with a dynamic recovery involving flowing movements to keep the body active, help stretch muscles, and increase range of motion.\nNot only is IGN1TE great for your overall cardiovascular health, but HIIT is the ideal workout to burn calories and increase endurance. Exclusive to David Lloyd Clubs, you can find IGN1TE classes at all David Lloyd Clubs across the UK."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "spirit",
+      "patterns": [
+        "What is spirit",
+        "is spirit for all levels",
+        "Tell me more about spirit"
+      ],
+      "responses": [
+        "SPIRIT classes bring together strength, power, energy and calm for a holistic experience that will help you reset for the day ahead, or help you to wind down in the evening. Set to beautiful, motivating music, this workout is a journey of postures that are centered around building core strength, while increasing flexibility and mobility. Ending with a mindful sound meditation, SPIRIT classes give you an opportunity to slow down and focus on you and your personal wellness for a little while.\n\n Your SPIRIT instructor will guide you through the unique class experience. Each class follows a similar format, starting with a warmup designed to create an engaged mindset, mobilise the key muscle groups and to set the scene for the class. The order and specific moves may vary, but each class will include a combination of the following:\n\nSun salutation: focuses on releasing tension in hamstrings, shoulders and chest, increasing range of motion in joints.\nStanding strong: increases the tempo and raises heart rate so you start to feel the burn in your muscles. Key moves will strengthen muscle groups and joints in the lower body (calves, thighs, ankles) and back.\nBalance: dials it down a little to calm heart rate. Moves focus to the core to boost stability and help build better posture.\nFlow: combines moves into a sequence that will help build confidence. The music will guide the tempo and movement.\nPosterior: exercises focused on the back, that will reduce the risk of injury and help balance the body’s physique.\nCore: leads to better balance and stability while improving posture.\nStretch: focuses on releasing tension, improving flexibility and calming the mind.\n3 minutes of sound meditation"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blaze",
+      "patterns": [
+        "What is blaze",
+        "is blaze for all levels",
+        "Tell me more about blaze"
+      ],
+      "responses": [
+        "It's new, unique, like nothing you've experienced before and it's exclusive to David Lloyd clubs. Blaze is a HIIT class that will test your strength, stamina, and willpower as you run, lift and fight. It will push you to your limit.\n\nMake your way round the different stations as light, sound and energy power you through your workout while our instructors challenge you to achieve results you never thought possible. Plus, a Myzone heart-rate belt will track your performance so you'll work your body at the right intensity.\n\nMyzone is a wearable heart-rate based system that guarantees accurate and personalised results to help you make the most of your workout. It monitors heart rate, calories and time exercising and converts the results into Myzone Effort Points (MEPs) – so the focus is on rewarding effort rather than fitness.\n\nYour Myzone stats are projected onto digital screens in the form of colour-coded, easy-to-read tiles, so you can keep track of your progress throughout your Blaze session!\n\nThere’s also the free Myzone App, making it easy for you to stream your activity, upload your data and review your results from your smart phone."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "boditrax",
+      "patterns": [
+        "What is boditrax",
+        "What is bodytrax",
+        "Tell me more about boxitrax",
+        "Tell me more about bodytracks"
+      ],
+      "responses": [
+        "Boditrax is an amazingly clever system that assesses your body and, very quickly, delivers 14 different measurements, such as your ideal weight, your BMI and your metabolic age, as well as your fat and muscle mass. It’s completely free to use, and you can also get a free review of your results with a personal trainer. Then you can use those results to set some new fitness goals and track how you’re doing. It’s definitely worth a try. I hope this helps!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
