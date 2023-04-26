@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+</head>
+<body onload="scrollToBottom()">
+    <form action="/" method="POST">
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>DL Chat 1</h1>
+            <hr>
+            <p><b>Using Model V2 - </b><i>For testing and utilising a TensorFlow model trained on the David Lloyd members contract (and other online publicly available resources) to answer basic club related questions.</i></p>
+        </div>
+        <div class="chat-history">
+            <div class="message received">
+                <p>Hello! How can I help you?</p>
+            </div>
+            <p class="prompt">Try: <i>"What are your opening times?"</i></p>
+
+            {% if response %}
+                {% for i in range(user_log|length) %}
+                    <div class="message sent">
+                        <p>{{ user_log[i] }}</p>
+                    </div>
+
+                    {% if bot_log[i] %}
+                        <div class="message received">
+                            <p>{{ bot_log[i] }}</p>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+
+            <script>
+                var chatHistory = document.querySelector(".chat-history");
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            </script>
+
+            {% endif %}
+
+        </div>
+        <div class="chat-input">
+            <input type="text" name="user_input" id="user_input" for="user_input" placeholder="Type your message here...">
+            <input type="submit" value="Send">
+
+        </div>
+    </div>
+</body>
+</html>
