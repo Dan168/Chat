@@ -2,4 +2,4 @@ flask
 nltk
 tensorflow
 numpy
-
+gunicorn
