@@ -1,6 +1,5 @@
 flask
 nltk
-json
 tensorflow
 pickle
 numpy
